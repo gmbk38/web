@@ -1,0 +1,43 @@
+body {
+	background-color: black;
+	background-image: url(pic/main.png);
+	background-size:100%;
+	-webkit-touch-callout: none; /* Начало блокировки выделения в браузерах */
+  	-webkit-user-select: none;   
+  	-khtml-user-select: none;    
+  	-moz-user-select: none;      
+  	-ms-user-select: none;       
+  	user-select: none; 			 /* Конец */
+}
+a {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 30px;
+	letter-spacing: 0px;
+	word-spacing: 0.2px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}	
+.card{
+    box-shadow: 5px 5px 15px purple ;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+.card:hover{
+	background-image: url(pic/main_bg4.gif);
+    background-color: purple;
+    color: lightgreen;
+    box-shadow:5px 5px 15px black;
+}
+.menu_op{
+	opacity: 0.7;
+	background-color: bisque;
+}
+.menu_op:hover{
+	opacity: 0.7;
+	background: linear-gradient(45deg, red, blue);
+}

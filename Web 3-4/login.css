@@ -1,0 +1,24 @@
+body {
+  height: 100%;
+}
+.vhod {
+  color: purple;
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 30px;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
