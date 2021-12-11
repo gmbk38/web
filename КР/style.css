@@ -1,0 +1,91 @@
+html, body{
+    margin:0px;
+    padding:0px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+}
+.section{
+    text-align: center;
+    margin:0 auto;
+}
+.wrapper{
+    box-shadow: 5px 5px 15px rgb(0, 0, 0) ;
+    width:450px;
+    height:450px;
+    margin:0 auto;
+    position: relative;
+}
+.wrapper .cell{
+    background-color: rgb(42, 99, 165, 0.7);
+    border: 1px solid #000000;
+    cursor: pointer;
+    float: left;
+    font-size: 100px;
+    height: 148px;
+    text-align: center;
+    width: 148px;
+}
+.wrapper .cell.victory{
+    background-color: rgb(10, 81, 163);
+}
+.statistics{
+    font-weight: bold;
+    text-align: center;
+}
+.score{
+    text-align: center;
+    margin-bottom:20px;
+}
+.restart{
+    text-align: center;
+    padding-top: 20px;
+}
+.restart a{
+    text-decoration: none;
+    display:inline-block;
+    border-radius: 20px;
+    padding:10px 20px;
+    background-color: rgb(42, 99, 165);
+    color:#fff;
+}
+.rez_war{
+    background-color: rgb(42, 99, 165);
+    padding: 50px 0;
+    position: absolute;
+    text-align: center;
+    top: 130px;
+    width: 100%;
+    display: none;
+}
+.rez_war p{
+    color: #fff;
+    font-size: 66px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.rez_war_no{
+    background-color: darkolivegreen;
+    padding: 50px 0;
+    position: absolute;
+    text-align: center;
+    top: 130px;
+    width: 100%;
+    display: none;
+}
+.rez_text_no{
+    color: #fff;
+    font-size: 66px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.victory{
+    text-align: center;
+    color: #fff;
+    background-color: rgb(42, 99, 165);
+    padding: 30px 0;
+    font-size: 35px;
+    position: absolute;
+    width: 100%;
+    top: 39%;
+    display: none;
+}
